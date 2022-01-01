@@ -1,0 +1,29 @@
+.blanco{
+    background-color: white;
+}
+.col{
+    div{
+        padding-top: 70px;
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        height: 282px;
+        img{
+            max-width: 66px;
+            max-height: 46px;
+            
+        }
+        h3{
+            font-size: 20px;
+            padding-top: 16px;
+        }
+        p{
+            font-size: 14px;
+            color: grey;
+        }
+        a{
+            font-size: 14px;
+        }
+    }
+}

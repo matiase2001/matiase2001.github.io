@@ -1,0 +1,83 @@
+.suscripcion-cards{
+    padding: 40px 8px; /* padding de arriba y abajo*/ 
+    width: 100%;
+    max-width: 1200px;
+    margin: auto; /*centrar*/
+    overflow: hidden; /*esto sirve si algo se sale del contenedor que reaste que se esconda y no se vea*/
+    
+}
+
+
+.suscripcion{
+    background-color: #a4508b;
+background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+	align-items: center;
+    color: white;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+    span{
+        font-size: 24px;
+        span{
+            font-size: 14px;
+        }
+    }
+}
+.suscripcion-card{
+    background-color: white;
+    display: flex;
+    width: 100%;
+    height: 260px;
+    border-radius: 5px;
+    flex-direction: column;
+
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+    h3{
+        padding-top: 24px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 18px;
+        padding-bottom: 24px;
+        
+    }
+    .container{
+        img{
+            height: 72px;
+        width: 72px;
+        text-align: center;border-radius: 50%;
+        display: inline-block;
+        text-align: center;
+        float: left; /*sirve para que la imagen y el texto se aparten*/
+        
+        box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+        margin-right: 5px;
+        }
+        p{
+            display: flex;
+            align-items: center; /*sirve para alinear los items verticalmente*/
+            justify-content: space-between;
+            height: 72px;
+        }
+    }
+    .botom-suscrip{
+        padding-top: 24px;
+        display: flex;
+        justify-content: flex-end;
+        border-radius: 5px;
+        a{
+            width: 119px;
+            height: 48px;
+            
+        }
+        
+
+    }
+}

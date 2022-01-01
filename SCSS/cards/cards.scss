@@ -1,0 +1,40 @@
+.contenido-cards {
+    padding: 40px 8px; /* padding de arriba y abajo*/ 
+    width: 100%;
+    max-width: 1200px;
+    margin: auto; /*centrar*/
+    overflow: hidden; /*esto sirve si algo se sale del contenedor que reaste que se esconda y no se vea*/
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    padding-top: 10px;
+    
+
+    span{
+        
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 48px;
+    height: 48px;
+    
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+    }
+    h2{
+        font-size: 18px; /*el tamaño del texto*/
+        margin-left: 10px;
+    }
+    a{
+        font-weight: 300;
+        text-align: justify;
+        flex-direction: column;
+        display: block;
+        margin-left: 55px;
+        font-size: 14px; /*el tamaño del texto*/
+        text-decoration: none;
+    }
+}

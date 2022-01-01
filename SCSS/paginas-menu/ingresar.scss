@@ -1,0 +1,78 @@
+.ingresar-header{
+    height: 182px;
+    background-color:  #fff059;
+
+    div{
+        height: 26rem;
+        width: 26rem;
+        text-align: center;
+        margin: auto;
+        h2{
+            font-size: 24px;
+            padding-top: 30px;
+            margin: 20px;
+        }
+        label{
+            font-size: 14px;
+            display: flex;
+            flex-direction: column;
+            padding: 20px 20px 0px 40px;
+            text-align: left;
+        }
+        input{
+            border-radius: 5px;
+            width: 296px;
+            height: 48px;
+            
+        }
+        a{
+            margin-top: 30px;
+            width: 296px;
+            height: 48px;
+            display: flex;
+            flex-direction: column;
+            margin-left: 45px;
+            
+        }
+    }
+}
+
+.carrito-header{
+    height: 182px;
+    background-color:  #fff059;
+    div{
+        height: 278px;
+        width: 424px;
+        text-align: center;
+        margin: auto;
+        
+        h2{
+            font-size: 24px;
+            padding-top: 30px;
+            margin: 20px;
+        }
+        label{
+            font-size: 14px;
+            display: flex;
+            flex-direction: column;
+            padding: 20px 20px 0px 40px;
+            text-align: left;
+        }
+        input{
+            border-radius: 5px;
+            width: 296px;
+            height: 48px;
+            
+        }
+        a{
+            margin-top: 30px;
+            width: 296px;
+            height: 48px;
+            display: flex;
+            flex-direction: column;
+            margin-left: 45px;
+            
+        }
+    }
+
+}

@@ -1,0 +1,19 @@
+/*hola*/
+.body{
+    background-color: rgb(235, 235, 235);
+    font-family: 'open sans';
+
+}
+/*boostrap en scss*/
+@import "./bootstrap-5.1.3/scss/bootstrap.scss";
+@import "./header/header.scss";
+@import "./cards/cards.scss";
+@import "./carrusel-productos/carrusel-productos.scss";
+@import "./suscripcion/suscripcion.scss";
+@import "./carrusel-suscripcion/carrusel-suscripcion.scss";
+@import "./descubri/descubri.scss";
+@import "./final/final.scss";
+@import "./footer/footer.scss";
+@import "./paginas-menu/medidas-menu.scss";
+@import "./paginas-menu/ingresar.scss";
+@import "./categorias/categorias.scss"
