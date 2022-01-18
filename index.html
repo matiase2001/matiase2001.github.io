@@ -188,13 +188,13 @@
     <!--inicio card-->
     <section class="contenido-cards" >
       <div class="cards blanco" >
-      <div><h2><span><img src="https://http2.mlstatic.com/resources/frontend/homes-korriban/assets/images/payments/credit-card.svg" alt=""> </span>Tarjeta de crédito <a href="#">Ver promociones bancarias</a></h2>
+      <div><h2><span><img src="https://http2.mlstatic.com/resources/frontend/homes-korriban/assets/images/payments/credit-card.svg" alt=""> </span>Tarjeta de crédito <a onclick="finalizarCompra()" href="#">Ver promociones bancarias</a></h2>
       </div>
-      <div><h2><span><img src="https://http2.mlstatic.com/resources/frontend/homes-korriban/assets/images/payments/debit-card.svg" alt=""></span>Tarjeta de débito <a href="#">Ver más</a></h2>
+      <div><h2><span><img src="https://http2.mlstatic.com/resources/frontend/homes-korriban/assets/images/payments/debit-card.svg" alt=""></span>Tarjeta de débito <a onclick="tarjetaCredito()" href="#">Ver más</a></h2>
       </div>
       <div><h2><span><img src="https://http2.mlstatic.com/resources/frontend/homes-korriban/assets/images/payments/mercado-creditsv2.svg" alt=""></span>Cuotas sin tarjeta<a href="#">Conocé Mercado Crédito</a></h2>
       </div>
-      <div><h2><span><img src="https://http2.mlstatic.com/resources/frontend/homes-korriban/assets/images/payments/payment-agreement.svg" alt=""></span>Efectivo <a href="#">Ver más</a></h2>
+      <div><h2><span><img src="https://http2.mlstatic.com/resources/frontend/homes-korriban/assets/images/payments/payment-agreement.svg" alt=""></span>Efectivo <a onclick="efectivo()" href="#">Ver más</a></h2>
       </div>
       <div><img src="https://http2.mlstatic.com/resources/frontend/homes-korriban/assets/images/payments/view-more.svg" alt=""></div>
       </div>
@@ -549,6 +549,8 @@
   <p>Matias Cañete</p>
   
 </footer>
+
+  <script src="main.js"></script>
 
     <!-- Java Script de BS CND - ONLINE-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
